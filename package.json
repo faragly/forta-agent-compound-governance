@@ -1,7 +1,10 @@
 {
   "name": "forta-agent-compound-governance",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Forta Agent for Compound Governance",
+  "repository": {
+      "url": "https://github.com/faragly/forta-agent-compound-governance"
+  },
   "scripts": {
     "build": "tsc",
     "start": "npm run start:dev",

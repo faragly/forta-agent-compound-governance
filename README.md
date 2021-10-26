@@ -11,8 +11,6 @@ This agent detects transactions that interact with Compound Protocol Governance
 
 ## Alerts
 
-Describe each of the type of alerts fired by this agent
-
 - COMPOUND-PROPOSAL-AGENT
   - Fired when a transaction interacts with Compound Protocol Governance
   - Severity is always set to "medium"
@@ -25,7 +23,7 @@ Describe each of the type of alerts fired by this agent
 ## Test Data
 The agent behaviour can be verified with the following transactions:
 
-- 0xe1f082f2c4c9c36015ec4eb202572a02b4c6f54ca3ba1b55df72aa8154ae2c88
+- `0xe1f082f2c4c9c36015ec4eb202572a02b4c6f54ca3ba1b55df72aa8154ae2c88`
 ```
 {
   "name": "Compound governance",
@@ -40,7 +38,7 @@ The agent behaviour can be verified with the following transactions:
   }
 }
 ```
-- 0xbeea670d6b98bd244901b41a2bb9eb0fe471c7dd2b42d1604f7f7c96da85bbd8
+- `0xbeea670d6b98bd244901b41a2bb9eb0fe471c7dd2b42d1604f7f7c96da85bbd8`
 ```
 {
   "name": "Compound governance",
@@ -58,3 +56,5 @@ The agent behaviour can be verified with the following transactions:
   }
 }
 ```
+## Agent ID
+`0x3c7a6fe0171f51478d26f8af03c13c79e800239180b7a630964e876842b4f50e`
